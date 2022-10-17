@@ -18,7 +18,7 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./assets/style.css" />
     <title>Work Day Scheduler</title>
   </head>
 
@@ -28,11 +28,80 @@
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
     </header>
-    <div class="container">
       <!-- Timeblocks go here -->
-    </div>
+    <div>
+      <div class="input-group" >
+      <span class="input-group-text time-block hour">09:00am</span>
+      <textarea class="form-control" id="09am" aria-label="With textarea"></textarea>
+      <button class="saveBtn">💾</button>
+      </div>
+      <div class="input-group">
+        <span class="input-group-text time-block hour">10:00am</span>
+        <textarea class="form-control" id="10am" aria-label="With textarea"></textarea>
+        <button class="saveBtn">💾</button>
+      </div>
+      <div class="input-group">
+        <span class="input-group-text time-block hour">11:00am</span>
+        <textarea class="form-control" id="11am" aria-label="With textarea"></textarea>
+        <button class="saveBtn">💾</button>
+      </div>
+      <div class="input-group">
+        <span class="input-group-text time-block hour">12:00pm</span>
+        <textarea class="form-control" id="12pm" aria-label="With textarea"></textarea>
+        <button class="saveBtn">💾</button>
+      </div>
+      <div class="input-group">
+        <span class="input-group-text time-block hour">01:00pm</span>
+        <textarea class="form-control" id="13pm" aria-label="With textarea"></textarea>
+        <button class="saveBtn">💾</button>
+      </div>
+      <div class="input-group">
+        <span class="input-group-text time-block hour">02:00pm</span>
+        <textarea class="form-control" id="14pm" aria-label="With textarea"></textarea>
+        <button class="saveBtn">💾</button>
+      </div>
+      <div class="input-group">
+        <span class="input-group-text time-block hour">03:00pm</span>
+        <textarea class="form-control" id="15pm" aria-label="With textarea"></textarea>
+        <button class="saveBtn">💾</button>
+      </div>
+      <div class="input-group">
+        <span class="input-group-text time-block hour">04:00pm</span>
+        <textarea class="form-control" id="16pm" aria-label="With textarea"></textarea>
+        <button class="saveBtn">💾</button>
+      </div>
+      <div class="input-group">
+        <span class="input-group-text time-block hour">05:00pm</span>
+        <textarea class="form-control" id="17pm" aria-label="With textarea"></textarea>
+        <button class="saveBtn">💾</button>
+      </div>
+      <div class="input-group">
+        <span class="input-group-text time-block hour">06:00pm</span>
+        <textarea class="form-control" id="18pm" aria-label="With textarea"></textarea>
+        <button class="saveBtn">💾</button>
+      </div>
+      <div class="input-group">
+        <span class="input-group-text time-block hour">07:00pm</span>
+        <textarea class="form-control" id="19pm" aria-label="With textarea"></textarea>
+        <button class="saveBtn">💾</button>
+      </div>
+      <div class="input-group">
+        <span class="input-group-text time-block hour">08:00pm</span>
+        <textarea class="form-control" id="20pm" aria-label="With textarea"></textarea>
+        <button class="saveBtn">💾</button>
+      </div>
+    </div>  
+    <footer class="m-4">
+      <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+        <button class="btn btn-secondary" type="button" id="clearBtn">Clear Day</button>
+      </div>
+    </footer>
+    
+
+       
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./assets/script.js"></script>
   </body>
 </html>
